@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.home{
+    background-image: url('https://themebeyond.com/html/movflx/img/banner/banner_bg01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 800px;
+    text-align: left;
+    padding-left: 30px;
+    font-family: 'Bebas Neue';
+    color: rgb(253, 185, 11);
+    
+}
+
+.heading{
+    padding-top: 100px;
+}
+.sub_heading{
+    color: whitesmoke;
+    
+}
+.sub_heading h1{
+    font-size: 5rem;
+}
+.sub_heading  span{
+    color: rgb(253, 185, 11);
+}
+.bottom ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: -32px;
+}
+.bottom ul li{
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+.bottom ul li i{
+    margin-right: 5px;
+}
+.bottom button{
+    border-radius: 10px;
+    font-size: 1.3rem;
+    width: 200px;
+    height: 50px;
+    color: ghostwhite;
+    margin-bottom: 102px;
+}
+.bottom button i{
+    margin-right: 5px;
+    margin-left: -10px;
+    color: goldenrod;
+}

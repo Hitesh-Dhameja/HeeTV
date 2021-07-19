@@ -1,0 +1,7 @@
+.ownList ul li a{
+    color: goldenrod !important;
+    font-weight: bolder;
+}
+.ownList ul li a:hover{
+    color: honeydew !important;
+}

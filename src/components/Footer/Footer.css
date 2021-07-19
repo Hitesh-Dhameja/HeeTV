@@ -1,0 +1,86 @@
+.footer-menu-wrap {
+    position: relative;
+    padding-bottom: 35px;
+}
+.footer-menu-wrap::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(18, 21, 30);
+    box-shadow: 0px 3px 0px 0px rgb(143 143 143 / 14%);
+}
+.footer-menu nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer-menu nav .navigation {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+a{
+    color: goldenrod;
+}
+.footer-menu nav .navigation li {
+    margin-right: 27px;
+}
+.footer-menu nav menu ul li a{
+    color: goldenrod;
+}
+.footer-search form input {
+    width: 100%;
+    border: none;
+    background: #12151e;
+    color: #fff;
+    padding: 14px 20px;
+    font-size: 12px;
+    border-radius: 30px;
+    padding-right: 60px;
+    box-shadow: inset 0px 4px 9px 0px rgb(0 0 0 / 25%);
+}
+.footer-search form button {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    font-size: 12px;
+    color: goldenrod;
+    padding: 0;
+}
+.footer-quick-link-wrap {
+    padding-top: 40px;
+}
+.quick-link-list ul, .footer-social ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.quick-link-list ul li {
+    margin-right: 50px;
+    margin: 5px 50px 5px 0px;
+}
+.footer-social ul {
+    justify-content: flex-end;
+}
+.footer-social ul li {
+    margin-right: 8px;
+}
+.copyright-wrap {
+    background: #171b22;
+    padding: 25px 0;
+}
+.copyright-text > p {
+    margin-bottom: 0;
+    font-size: 13px;
+    color: #bcbcbc;
+    line-height: 24px;
+}
+.payment-method-img img {
+    max-width: 100%;
+}
