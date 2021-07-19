@@ -44,7 +44,7 @@ function Navbar({ menu, email, logOut }) {
                                 <a class="nav-link" href="/HeeTV">TV Show</a>
                             </li>
                             <li class="nav-item ml-3">
-                                <a class="nav-link" href="/pricing/">Pricing</a>
+                                <a class="nav-link" href="/HeeTV/pricing/">Pricing</a>
                             </li>
                         </ul>
                         <form class="form-inline my-2 my-lg-0">
