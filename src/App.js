@@ -33,10 +33,10 @@ function App() {
             <About />
             <Footer />
           </Route>
-          <Route path='/HeeTV/login/'>
+          <Route name="login" path='/HeeTV/login/'>
             <SignIn checkLogged={checkLogged} />
           </Route>
-          <Route path='/HeeTV/signup/'>
+          <Route name="signup" path='/HeeTV/signup/'>
             <SignUp checkLogged={checkLogged} />
           </Route>
           <Route name="each" path='/HeeTV/each/'>
@@ -45,7 +45,7 @@ function App() {
           <Route path='/HeeTV/search/'>
             <Search />
           </Route>
-          <Route path='/HeeTV/pricing/'>
+          <Route name="pricing" path='/HeeTV/pricing/'>
             <Pricing />
           </Route>
         </Switch>
